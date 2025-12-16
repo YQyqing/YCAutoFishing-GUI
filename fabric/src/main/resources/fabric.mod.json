@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "yc_auto_fishing",
+  "version": "${version}",
+  "name": "YC Auto Fishing - GUI Edition",
+  "description": "GUI版本：添加图形化配置界面、实时状态提示、配置文件支持、多语言支持等功能。修复无法自动钓鱼的问题，增加配置文件，可以设置自动钓鱼的开关，以及文本牌跟随停止距离，以及卡住重新寻路的阈值",
+  "authors": [
+    "Terry_MC"
+  ],
+  "contact": {
+    "homepage": "https://terry-mc.top/",
+    "sources": "http://github.com/Terry-MC123/YCAutoFishing"
+  },
+  "license": "LGPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "top.terry_mc.yc_auto_fishing.fabric.YCAutoFishingFabric"
+    ]
+  },
+  "mixins": [
+    "yc_auto_fishing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

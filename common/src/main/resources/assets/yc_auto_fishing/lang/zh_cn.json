@@ -1,0 +1,13 @@
+{
+  "key.yc_auto_fishing.toggle_auto_fishing": "切换自动钓鱼",
+  "key.yc_auto_fishing.open_config": "打开自动钓鱼设置",
+  "category.yc_auto_fishing": "YC 自动钓鱼",
+
+  "screen.yc_auto_fishing.config": "YC 自动钓鱼设置",
+  "screen.yc_auto_fishing.auto_fishing_default": "自动钓鱼默认: %s",
+  "screen.yc_auto_fishing.hud_enabled": "HUD 显示: %s",
+  "screen.yc_auto_fishing.stop_distance": "停靠距离: %s",
+  "screen.yc_auto_fishing.reload": "从文件重新加载"
+}
+
+

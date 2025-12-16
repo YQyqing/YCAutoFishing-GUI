@@ -1,0 +1,11 @@
+{
+  "key.yc_auto_fishing.toggle_auto_fishing": "Toggle Auto Fishing",
+  "key.yc_auto_fishing.open_config": "Open YC Auto Fishing Config",
+  "category.yc_auto_fishing": "YC Auto Fishing",
+
+  "screen.yc_auto_fishing.config": "YC Auto Fishing Settings",
+  "screen.yc_auto_fishing.auto_fishing_default": "Auto fishing default: %s",
+  "screen.yc_auto_fishing.hud_enabled": "HUD: %s",
+  "screen.yc_auto_fishing.stop_distance": "Stop distance: %s",
+  "screen.yc_auto_fishing.reload": "Reload from file"
+}

@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+**/.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.settings/
+.classpath
+.project
+
+# 运行文件
+run/
+fabric/run/
+neoforge/run/
+**/run/
+
+# 日志
+logs/
+*.log
+crash-reports/
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 配置文件（可选，如果不想提交用户配置）
+# config/
+
+# 依赖库（建议忽略，因为文件较大且可通过构建系统重新获取）
+libs/
